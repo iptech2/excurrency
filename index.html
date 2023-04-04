@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency ke/Tz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form">
+            <form action="index.html" >
+                <div class="currency">
+                    <img src="https://flagcdn.com/48x36/ke.png" alt="flag">
+        
+                    <input type="number" id="amount-one" value="0" placeholder="0.00">
+                    <select id="currency-one">
+                        
+                        <option value="KES" selected>KSH</option>
+                        
+                    </select>
+                </div>
+        
+                <div class="swap-rate-container">
+                    <div class="rate" id="rate"></div>
+                    <button class="btn"  class="hidden"id="swap">Swap</button>
+                </div>
+                <div class="currency">
+                    <img src="https://flagcdn.com/48x36/tz.png" alt="flag">
+        
+                    <input type="number" id="amount-two"  placeholder="0">
+                    <select id="currency-two">
+                        
+                        <option value="TZS" selected>TZS</option>
+                       
+                    </select>                  
+                </div>
+                <button class="button"  id="startbtn">Get Started</button>
+            </form>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
